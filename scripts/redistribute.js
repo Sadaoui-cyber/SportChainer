@@ -17,7 +17,5 @@ module.exports = async function(callback) {
     );
   }
 };
-
 //to run script  -  truffle exec scripts/redistribute.js
 //to run custom redistribution   -  truffle exec scripts/redistribute.js custom
-

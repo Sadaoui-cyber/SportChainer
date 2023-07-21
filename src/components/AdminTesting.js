@@ -4,6 +4,7 @@ import classes from './AdminTesting.module.css';
 const AdminTesting = (props) => {
   return (
     <div className={classes.for_testing}>
+      <h1 style={{ textAlign: 'center', color: 'black' }}>Sportchainer</h1>
       <p>FOR TESTING PURPOSE</p>
       <button onClick={props.claimTst}>Claim for 1000 Tst (User)</button>
       &nbsp; &nbsp;
